@@ -46,7 +46,7 @@ const routes = createBrowserRouter(
       <Route loader={githubInfoLoader} path="github" element={<GitHub />} />
     </Route>
   )
-)
+)  
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
